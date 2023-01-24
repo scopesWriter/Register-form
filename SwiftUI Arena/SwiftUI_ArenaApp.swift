@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_ArenaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RegisterView(viewModel: .init())
         }
     }
 }
